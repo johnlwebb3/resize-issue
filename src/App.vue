@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <ResizeIssue/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import ResizeIssue from './components/ResizeIssue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    ResizeIssue,
   },
 
   data: () => ({
